@@ -77,6 +77,7 @@ const products = ref([
 </script>
 
 <template>
+    <h1 style="color: aliceblue;margin-bottom: -10px;">Todos</h1>
     <div>
         <div style="text-align : right">
             <Button @click="router.push(`/todos/add`)" label="Topshiriq qo'shish" size="small" severity="info"></Button>
